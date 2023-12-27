@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+    <table border="1px">
+            <legend>Pizza Shop 2.0</legend>
+    <tr>
+        <th colspan="2"><h1>Pizza Shop 2.0</h1></th>
+    </tr>
+    <form action="Send my order.html">
+<form>
+    <tr>
+        <td><p>Name</p></td>
+        <td><input style="width: 500px; height: 20px; background-color: rgb(180, 103, 103);border: 2px solid black;" type="text"></td>
+    </tr>
+    <tr>
+        <td><p>Pizza Topping</p></td>
+        <td>
+            <input type="radio" name="Topping" id="Supreme"><label for="Supreme">Supreme</label><br>
+            <input type="radio" name="Topping" id="Vegetarian"><label for="Vegetarian">Vegetarian</label><br>
+            <input type="radio" name="Topping" id="Hawalian"><label for="Hawalian">Hawalian</label><br>
+        </td> 
+    </tr>
+    <tr>
+        <td><p>Pizza Sauce</p></td>
+        <td>
+            <select width:"100px">
+                <option selected>Tomato</option>
+                <option >chilli</option>
+                <option >garlic</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td><p>Optional Extras</p></td>
+        <td>
+            <input type="checkbox" name="Extras" id="Extra Cheese"><label for="Extra Cheese">Extra Cheese</label>
+            <input type="checkbox" name="Extras" id="Gluten Free Base"><label for="Gluten Free Base">Gluten Free Base</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            Delivery Instructions: <br>
+            <textarea cols="70" rows="5"></textarea>
+        </td>
+    </tr>
+   <tr>
+    <td><button>Send my order</button></td>
+   </tr>
+</form>
+    </table>
+</fieldset>
+</form>
+</body>
+</html>
